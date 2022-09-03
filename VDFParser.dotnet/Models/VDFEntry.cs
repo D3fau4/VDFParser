@@ -114,6 +114,20 @@
         public string DevkitGameID { get; set; }
 
         /// <summary>
+        ///     Gets or sets the Devkit Override AppID for this application.
+        /// </summary>
+        /// <value>Devkit Override AppID for this application</value>
+        [VDFField("DevkitOverrideAppID", Type = VDFFieldType.Integer)]
+        public int DevkitOverrideAppID { get; set; }
+
+        /// <summary>
+        ///     Gets or sets the FlatpakAppID for this application.
+        /// </summary>
+        /// <value>FlatpakAppID for this application</value>
+        [VDFField("FlatpakAppID")]
+        public string FlatpakAppID { get; set; }
+
+        /// <summary>
         ///     Gets or sets the last play time for this application.
         ///     Use a UNIX timestamp, or 0 for never played.
         /// </summary>

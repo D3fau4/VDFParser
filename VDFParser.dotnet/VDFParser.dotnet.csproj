@@ -8,6 +8,7 @@
     <PackageProjectUrl>https://github.com/BrianLima/VDFParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/D3fau4/VDFParser</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
