@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Title>VDFParser</Title>
+    <Description>Provides facilities to parse and write VDF files into managed objects</Description>
+    <PackageProjectUrl>https://github.com/BrianLima/VDFParser</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>

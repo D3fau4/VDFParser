@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDFParser", "VDFParser\VDFParser.csproj", "{9543FB59-1EB6-4638-B24C-B12B9D4A15FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDFParserTests", "VDFParserTests\VDFParserTests.csproj", "{F080DE97-E69A-4D2F-B92A-794FE31A1733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDFParser.dotnet", "VDFParser.dotnet\VDFParser.dotnet.csproj", "{562AE157-92A9-467A-A168-5D8258A7BEAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +22,15 @@ Global
 		{F080DE97-E69A-4D2F-B92A-794FE31A1733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F080DE97-E69A-4D2F-B92A-794FE31A1733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F080DE97-E69A-4D2F-B92A-794FE31A1733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562AE157-92A9-467A-A168-5D8258A7BEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562AE157-92A9-467A-A168-5D8258A7BEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562AE157-92A9-467A-A168-5D8258A7BEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562AE157-92A9-467A-A168-5D8258A7BEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58F3140F-4DBD-419F-A486-CAAACF1B6DFB}
 	EndGlobalSection
 EndGlobal
